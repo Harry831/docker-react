@@ -1,3 +1,4 @@
+sudo: required
 services:
   - docker
 before_install:
@@ -15,4 +16,4 @@ after_success:
   - docker push harish831/multi-client
   - docker push harish831/multi-nginx
   - docker push harish831/multi-worker
-  - docker harish831/multi-serverudo: required
+  - docker harish831/multi-server
